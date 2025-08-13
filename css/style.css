@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: #018281;
+    color: #e0e0e0;
+    font-family: Time;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #018281;;
+    text-align: center;
+    padding: 1.5rem;
+
+}
+
+header h1 {
+    color: #000;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+    margin-bottom: 0.5rem;
+}
+
+nav a {
+    color: #ff00ff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #000;
+    text-shadow: 0 0 5px #000;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.post {
+    background-color: #111;
+    border: 2px solid #ff00ff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px #ff00ff;
+}
+
+.post h2 {
+    color: #00ffff;
+}
+
+.date {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #018281;;
+    font-size: 0.8rem;
+}
+.gif-left, .gif-right {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px; /* Ajusta tamaño según el GIF */
+    z-index: 1000; /* Para que queden encima */
+}
+
+.gif-left {
+    left: 10px;
+}
+
+.gif-right {
+    right: 10px;
+}
